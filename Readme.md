@@ -34,5 +34,7 @@ A simple web-based calculator built with HTML, CSS, and JavaScript.
 - The calculator follows standard order of operations
 - Error handling is included for invalid expressions
 - The design features a dark theme with color-coded buttons
-[Click me](https://scintillating-sprinkles-7b0817.netlify.app/)
+
 Feel free to modify or extend this calculator as needed!
+
+[Link👈](https://scintillating-sprinkles-7b0817.netlify.app/) to see the calculator.
