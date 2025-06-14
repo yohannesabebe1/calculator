@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet">
+
+
+    <title>Calculators</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+  </head>
+  <body>
+    <div class="full-body">
+      <div class="calc">
+        <input class="js-input" readonly>
+        <div class="btn-box">
+        <button class="js-btn clear-btn" onclick="pickButton('CE')">CE</button>
+        <button class="js-btn clear-btn" onclick="pickButton('C')">C</button>
+        <button class="js-btn clear-btn" onclick="pickButton('⌫')">⌫</button>
+        <button class="js-btn operators" onclick="pickButton('÷')">÷</button>
+
+        <button class="js-btn" onclick="pickButton('7') ; console.log(calculation)">7</button>
+        <button class="js-btn" onclick="pickButton('8')">8</button>
+        <button class="js-btn" onclick="pickButton('9')">9</button>
+        <button class="js-btn operators" onclick="pickButton('×')">×</button>
+
+        <button class="js-btn" onclick="pickButton('4')">4</button>
+        <button class="js-btn" onclick="pickButton('5')">5</button>
+        <button class="js-btn" onclick="pickButton('6')">6</button>
+        <button class="js-btn operators" onclick="pickButton('-')">-</button>
+
+        <button class="js-btn" onclick="pickButton('1')">1</button>
+        <button class="js-btn" onclick="pickButton('2')">2</button>
+        <button class="js-btn" onclick="pickButton('3')">3</button>
+        <button class="js-btn operators" onclick="pickButton('+')">+</button>
+
+        <button class="js-btn" onclick="pickButton('%')">%</button>
+        <button class="js-btn" onclick="pickButton('0')">0</button>
+        <button class="js-btn" onclick="pickButton('.')">.</button>
+        <button class="js-btn equal-btn" onclick="pickButton('=')">=</button>
+      </div>
+    </div>
+  </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
